@@ -20,7 +20,6 @@
     "dist"
   ],
   "scripts": {
-    "prepare": "npm run build",
     "test": "jest",
     "test:cli": "babel-node src/cli.js test/fixtures/*.js",
     "coverage": "npm test -- --coverage",
